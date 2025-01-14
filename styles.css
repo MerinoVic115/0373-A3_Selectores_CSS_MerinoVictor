@@ -1,0 +1,81 @@
+  /* cambiar letra a mas delgada */
+  roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+  * {
+    font-family: "Roboto", serif;
+  }
+
+  body { 
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+
+  h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+
+  }
+
+  .selector{
+    color: lightcyan;
+  }
+
+  .selectors{
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #universal {
+    color: lightgoldenrodyellow;
+  }
+
+    .selector, #universal { 
+    background-color: darkcyan;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 5px;
+    padding-left: 7px;;
+
+  }
+
+  span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+  }
+
+  li > a {
+    text-decoration: none;
+  }
+
+
+  h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding-bottom: 0.5px;
+    padding-top: 0.5px;
+    border-radius: 5px;
+   }
+
+  #gallery div {
+    width: 100%;
+   }
+
+   img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+   }
