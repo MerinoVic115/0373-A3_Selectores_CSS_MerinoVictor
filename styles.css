@@ -88,6 +88,53 @@ img {
 }
 
 
+/* Regla para la tabla */
+table {
+  
+  width: 100%;
+  border-collapse: collapse; /* Elimina los espacios entre bordes */
+  margin: 20px 0;
+  text-align: left;
+  border: 1px solid rgb(154, 154, 154);
+}
+
+/* Regla para los encabezados de la tabla (negrita) */
+th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Regla para las filas de la tabla */
+td {
+  padding: 10px;
+}
+
+/* Regla para los títulos de las columnas */
+thead th {
+  font-weight: bold; /* Negrita */
+}
+
+/* Regla para los elementos de la columna "Selector" en cursiva */
+tbody td:first-child {
+  font-style: italic; /* Aplicar cursiva */
+}
+
+/* Alternar colores para filas */
+tbody tr:nth-child(odd) {
+  background-color: #817f7f53; /* Color claro */
+}
 
 
+.divtabla {
+  width: 100%;
+  border: 1px;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 5px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 5%;
+  border-right: 5%;
+  
+}
 
