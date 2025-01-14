@@ -1,81 +1,93 @@
-  /* cambiar letra a mas delgada */
-  roboto-<uniquifier> {
-  font-family: "Roboto", serif;
+/* Define una fuente personalizada con ajustes de estilo */
+open-sans-<uniquifier> {
+  font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-weight: 300;
+  font-style: normal; 
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100; 
+}
+
+/* Aplica la fuente "Open Sans" globalmente a todos los elementos */
+* {
+  font-family: "Open Sans", serif;
+}
+
+/* Configura el estilo del cuerpo de la página */
+body { 
+  margin: 0; /* Elimina los márgenes predeterminados */
+  margin-left: 20%; /* Agrega un margen del 20% en el lado izquierdo */
+  margin-right: 20%; /* Agrega un margen del 20% en el lado derecho */
+}
+
+/* Estiliza los encabezados de nivel 1 */
+h1 {
+  text-decoration: underline; /* Subraya el texto */
+  color: darkcyan; /* Cambia el color del texto a cian oscuro */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+
+/* Estilo para elementos con la clase "selector" */
+.selector {
+  color: lightcyan; /* Cambia el color del texto a cian claro */
+}
+
+/* Estilo para elementos con la clase "selectors" */
+.selectors {
+  border: solid darkcyan 1px; /* Agrega un borde de 1px con color cian oscuro */
+  border-radius: 5px; /* Redondea las esquinas del borde */
+  padding-left: 50px; /* Espaciado interno de 50px en el lado izquierdo */
+  padding-top: 50px; /* Espaciado interno de 50px en la parte superior */
+  padding-bottom: 50px; /* Espaciado interno de 50px en la parte inferior */
+}
+
+/* Estilo específico para el elemento con el ID "universal" */
+#universal {
+  color: lightgoldenrodyellow; /* Cambia el color del texto a amarillo dorado claro */
+}
+
+/* Estilo combinado para .selector y #universal */
+.selector, #universal {
+  background-color: darkcyan; /* Fondo de cian oscuro */
+  padding-bottom: 1%; /* Espaciado interno del 1% en la parte inferior */
+  padding-top: 1%; /* Espaciado interno del 1% en la parte superior */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding-left: 7px; /* Espaciado interno de 7px en el lado izquierdo */
+}
+
+/* Estilo para los elementos <span> */
+span {
+  font-weight: 900; /* Aplica un peso extremo (negrita intensa) al texto */
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+}
+
+/* Estilo para enlaces (<a>) directamente dentro de listas (<li>) */
+li > a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo para encabezados de nivel 3 */
+h3 {
+  background-color: rgba(0, 139, 139, 0.529); /* Fondo semi-transparente de cian oscuro */
+  padding-bottom: 0.5px; /* Espaciado interno de 0.5px en la parte inferior */
+  padding-top: 0.5px; /* Espaciado interno de 0.5px en la parte superior */
+  border-radius: 5px; /* Redondea las esquinas */
+}
+
+/* Configura el ancho de los elementos <div> dentro de #gallery */
+#gallery div {
+  width: 100%; /* El ancho ocupa el 100% del contenedor padre */
+}
+
+/* Estiliza imágenes */
+img {
+  width: 100%; /* Configura el ancho de las imágenes al 100% del contenedor */
+  border: solid darkcyan 1px; /* Agrega un borde de 1px con color cian oscuro */
+  border-radius: 5px; /* Redondea las esquinas del borde */
 }
 
 
-  * {
-    font-family: "Roboto", serif;
-  }
-
-  body { 
-    margin: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-  }
-
-  h1 {
-    text-decoration: underline;
-    color: darkcyan;
-    text-align: center;
-
-  }
-
-  .selector{
-    color: lightcyan;
-  }
-
-  .selectors{
-    border: solid darkcyan 1px;
-    border-radius: 5px;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  #universal {
-    color: lightgoldenrodyellow;
-  }
-
-    .selector, #universal { 
-    background-color: darkcyan;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    border-radius: 5px;
-    padding-left: 7px;;
-
-  }
-
-  span {
-    font-weight: 900;
-    background-color: black;
-    color: white;
-  }
-
-  li > a {
-    text-decoration: none;
-  }
 
 
-  h3 {
-    background-color: rgba(0, 139, 139, 0.529);
-    padding-bottom: 0.5px;
-    padding-top: 0.5px;
-    border-radius: 5px;
-   }
 
-  #gallery div {
-    width: 100%;
-   }
-
-   img {
-    width: 100%;
-    border: solid darkcyan 1px;
-    border-radius: 5px;
-   }
