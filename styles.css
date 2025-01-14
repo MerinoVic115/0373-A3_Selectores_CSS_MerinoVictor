@@ -117,6 +117,7 @@ thead th {
 /* Regla para los elementos de la columna "Selector" en cursiva */
 tbody td:first-child {
   font-style: italic; /* Aplicar cursiva */
+  text-decoration: underline;
 }
 
 /* Alternar colores para filas */
